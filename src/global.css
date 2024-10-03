@@ -1,0 +1,18 @@
+:root {
+  --bg: #eef1f3;
+  --white: #ffffff;
+  --gray-300: #828282;
+  --blue: #007dc6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
+}
