@@ -1,8 +1,27 @@
-# React + Vite
+# Projeto de Teste React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como um teste para a criação de uma lista dinâmica de cards utilizando as tecnologias **Vite**, **Styled-Components** e **Lucide Icons**.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**: Ferramenta rápida de build para front-end, focada em melhorar a experiência de desenvolvimento com React.
+- **Styled-Components**: Biblioteca para estilização de componentes em React, permitindo a escrita de CSS diretamente no JavaScript, com escopo e dinamismo.
+- **Lucide Icons**: Conjunto de ícones flexíveis e customizáveis para uso em aplicações React.
+
+## Funcionalidades
+
+- Renderização dinâmica de uma lista de cards com base em um array de objetos.
+- Cada card exibe as seguintes informações:
+  - Título
+  - Categoria
+  - Subcategoria
+  - Observações
+- Estilização dos cards com uma borda azul à esquerda para destacar cada item.
+- Ações dinâmicas com ícones de edição e exclusão utilizando Lucide Icons.
+- Layout responsivo e com sombreamento para melhorar a experiência visual.
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
